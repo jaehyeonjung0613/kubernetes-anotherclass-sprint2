@@ -30,7 +30,7 @@ spec:
         blue-green-no: "1"
     spec:
       nodeSelector:
-        kubernetes.io/hostname: kind-workder
+        kubernetes.io/hostname: kind-worker
       containers:
         - name: api-tester-1
           image: 1pro/api-tester:v1.0.0
