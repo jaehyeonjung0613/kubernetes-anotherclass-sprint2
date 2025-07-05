@@ -5,10 +5,10 @@ commonLabels:
   version: 1.0.0
 resources:
   - ../../base
+  - namespace.yaml
 patches:
   - path: configmap.yaml
   - path: deployment-spec.yaml
   - path: deployment-ver.yaml
   - path: secret.yaml
   - path: service.yaml
-  - path: namespace.yaml
