@@ -11,3 +11,4 @@ patches:
   - path: deployment-ver.yaml
   - path: secret.yaml
   - path: service.yaml
+  - path: namespace.yaml
